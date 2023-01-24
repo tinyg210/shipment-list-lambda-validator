@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: dev.ancaghenade.shipmentlistlambdavalidator.ServiceHandler
+      CodeUri: /Users/anca/Workspace/demos/shipment-list-lambda-validator
+      Runtime: java11
+      Architectures:
+        - x86_64

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="818043cf-1ea4-41ac-8e52-e4817b72ad65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.aws-sam/temp-template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add-notif-config-for-lambda-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add-notif-config-for-lambda.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-lambda-local.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-lambda.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-config-local.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ancaghenade/shipmentlistlambdavalidator/S3ClientHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ancaghenade/shipmentlistlambdavalidator/ServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/placeholder.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kfz2wfgh5SQiP3K6LuJ656lRwF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/anca/Workspace/demos/shipment-list-lambda-validator/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.34252873",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.ancaghenade.shipmentlistlambdavalidator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/dev/ancaghenade" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/dev/ancaghenade/shipmentlistlambdavalidator" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.ancaghenade" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="ObjectDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ancaghenade.shipmentlistlambdavalidator.ObjectDetector" />
+      <module name="shipment-list-lambda-validator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ancaghenade.shipmentlistlambdavalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectDetector2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ancaghenade.shipmentlistlambdavalidator.ObjectDetector2" />
+      <module name="shipment-list-lambda-validator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ancaghenade.shipmentlistlambdavalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ancaghenade.shipmentlistlambdavalidator.test" />
+      <module name="shipment-list-lambda-validator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ancaghenade.shipmentlistlambdavalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambda Debug" type="THUNDRA_DEBUG_RUN_CONFIGURATION" factoryName="Thundra Debugger Configuration Factory">
+      <module name="shipment-list-lambda-validator" />
+      <option name="brokerHost" value="debug.thundra.io" />
+      <option name="brokerPort" value="443" />
+      <option name="sessionName" value="default" />
+      <option name="authToken" value="" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59185" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[Local] ServiceHandler" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="eu-central-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="architecture" value="x86_64" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="dev.ancaghenade.shipmentlistlambdavalidator.ServiceHandler" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" value="java11" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" value="{&#10;  &quot;Records&quot;: [&#10;    {&#10;      &quot;eventVersion&quot;: &quot;2.0&quot;,&#10;      &quot;eventSource&quot;: &quot;aws:s3&quot;,&#10;      &quot;awsRegion&quot;: &quot;eu-central-1&quot;,&#10;      &quot;eventTime&quot;: &quot;1970-01-01T00:00:00Z&quot;,&#10;      &quot;eventName&quot;: &quot;ObjectCreated:Put&quot;,&#10;      &quot;userIdentity&quot;: {&#10;        &quot;principalId&quot;: &quot;EXAMPLE&quot;&#10;      },&#10;      &quot;requestParameters&quot;: {&#10;        &quot;sourceIPAddress&quot;: &quot;127.0.0.1&quot;&#10;      },&#10;      &quot;responseElements&quot;: {&#10;        &quot;x-amz-request-id&quot;: &quot;EXAMPLE123456789&quot;,&#10;        &quot;x-amz-id-2&quot;: &quot;EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstuvwxyzABCDEFGH&quot;&#10;      },&#10;      &quot;s3&quot;: {&#10;        &quot;s3SchemaVersion&quot;: &quot;1.0&quot;,&#10;        &quot;configurationId&quot;: &quot;testConfigRule&quot;,&#10;        &quot;bucket&quot;: {&#10;          &quot;name&quot;: &quot;shipment-list-demo-bucket&quot;,&#10;          &quot;ownerIdentity&quot;: {&#10;            &quot;principalId&quot;: &quot;EXAMPLE&quot;&#10;          },&#10;          &quot;arn&quot;: &quot;arn:aws:s3:::shipment-list-demo-bucket&quot;&#10;        },&#10;        &quot;object&quot;: {&#10;          &quot;key&quot;: &quot;meh.txt-48b7acd4-6881-471e-b35f-552000da7bef&quot;,&#10;          &quot;size&quot;: 1024,&#10;          &quot;eTag&quot;: &quot;0123456789abcdef0123456789abcdef&quot;,&#10;          &quot;sequencer&quot;: &quot;0A1B2C3D4E5F678901&quot;&#10;        }&#10;      }&#10;    }&#10;  ]&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] shipment-list-lambda-validator" type="aws.lambda" factoryName="Remote" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="eu-central-1" />
+      <option name="functionName" value="shipment-list-lambda-validator" />
+      <option name="input" value="{&#10;  &quot;Records&quot;: [&#10;    {&#10;      &quot;eventVersion&quot;: &quot;2.0&quot;,&#10;      &quot;eventSource&quot;: &quot;aws:s3&quot;,&#10;      &quot;awsRegion&quot;: &quot;eu-central-1&quot;,&#10;      &quot;eventTime&quot;: &quot;1970-01-01T00:00:00Z&quot;,&#10;      &quot;eventName&quot;: &quot;ObjectCreated:Put&quot;,&#10;      &quot;userIdentity&quot;: {&#10;        &quot;principalId&quot;: &quot;EXAMPLE&quot;&#10;      },&#10;      &quot;requestParameters&quot;: {&#10;        &quot;sourceIPAddress&quot;: &quot;127.0.0.1&quot;&#10;      },&#10;      &quot;responseElements&quot;: {&#10;        &quot;x-amz-request-id&quot;: &quot;EXAMPLE123456789&quot;,&#10;        &quot;x-amz-id-2&quot;: &quot;EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstuvwxyzABCDEFGH&quot;&#10;      },&#10;      &quot;s3&quot;: {&#10;        &quot;s3SchemaVersion&quot;: &quot;1.0&quot;,&#10;        &quot;configurationId&quot;: &quot;testConfigRule&quot;,&#10;        &quot;bucket&quot;: {&#10;          &quot;name&quot;: &quot;shipment-list-demo-bucket&quot;,&#10;          &quot;ownerIdentity&quot;: {&#10;            &quot;principalId&quot;: &quot;EXAMPLE&quot;&#10;          },&#10;          &quot;arn&quot;: &quot;arn:aws:s3:::shipment-list-demo-bucket&quot;&#10;        },&#10;        &quot;object&quot;: {&#10;          &quot;key&quot;: &quot;why-is-this-42gb-hard-drive-so-big-seems-highly-impractical-v0-s5ce1nd4szu91.webp-5f8aa4e0-ba79-4260-9361-7d2dbb1b9664&quot;,&#10;          &quot;size&quot;: 1024,&#10;          &quot;eTag&quot;: &quot;0123456789abcdef0123456789abcdef&quot;,&#10;          &quot;sequencer&quot;: &quot;0A1B2C3D4E5F678901&quot;&#10;        }&#10;      }&#10;    }&#10;  ]&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ObjectDetector" />
+      <item itemvalue="Application.ObjectDetector2" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="AWS Lambda.[Remote] shipment-list-lambda-validator" />
+      <item itemvalue="AWS Lambda.[Local] ServiceHandler" />
+      <item itemvalue="Thundra Debugger.Lambda Debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="AWS Lambda.[Local] ServiceHandler" />
+        <item itemvalue="Application.ObjectDetector" />
+        <item itemvalue="Application.ObjectDetector2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818043cf-1ea4-41ac-8e52-e4817b72ad65" name="Changes" comment="" />
+      <created>1674380223614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674380223614</updated>
+      <workItem from="1674380225209" duration="7439000" />
+      <workItem from="1674402907374" duration="2273000" />
+      <workItem from="1674408789758" duration="36297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/ancaghenade/shipmentlistlambdavalidator/ServiceHandler.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/ancaghenade/shipmentlistlambdavalidator/ServiceHandler.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

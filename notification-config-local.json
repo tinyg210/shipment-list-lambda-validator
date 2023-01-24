@@ -1,0 +1,9 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "Id": "shipment-list-lambda-validator",
+      "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:000000000000:function:shipment-list-lambda-validator",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}

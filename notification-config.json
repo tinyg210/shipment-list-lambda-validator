@@ -2,7 +2,7 @@
   "LambdaFunctionConfigurations": [
     {
       "Id": "shipment-list-lambda-validator",
-      "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:{YOUR_AWS_USE_ID}:function:shipment-list-lambda-validator",
+      "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:{YOUR_AWS_ACCOUNT_ID}:function:shipment-list-lambda-validator",
       "Events": ["s3:ObjectCreated:*"]
     }
   ]

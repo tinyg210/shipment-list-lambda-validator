@@ -28,24 +28,15 @@ aws lambda create-function \
     --timeout 15 \
     --role arn:aws:iam::932043840972:role/shipment-list-demo-role
 
-
-#not needed?
-## Set the environment variables for the Lambda function
-awslocal lambda update-function-configuration \
-    --function-name shipment-list-lambda-validator \
-    --region eu-central-1 \
-    --environment Variables="file://environment.json"
-
 # Grant S3 Invoke Lambda Permission
 aws lambda add-permission --function-name $function_name \
      --statement-id s3-invoke --action "lambda:InvokeFunction" \
      --principal s3.amazonaws.com \
      --source-arn arn:aws:s3:::$file_source_bucket_name
 
-# If you need to re-deploy the jar:
+# If you need to re-deploy the jar directly:
 
 #aws lambda update-function-code --function-name shipment-list-lambda-validator \
-# --s3-bucket shipment-list-lambda-validator-bucket \
-# --s3-key shipment-list-lambda-validator-1.0-SNAPSHOT.jar \
-# --handler dev.ancaghenade.shipmentlistlambdavalidator.ServiceHandler::handleRequest \
+     ## --zip-file fileb://target/shipment-list-lambda-validator-1.0-SNAPSHOT.jar \
+     ## --region eu-central-1
 

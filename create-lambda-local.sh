@@ -31,6 +31,7 @@ awslocal lambda update-function-configuration \
             S3_ENDPOINT_LOCAL=https://s3.localhost.localstack.cloud:4566, \
             REGION_LOCAL = eu-central-1}"
 
+
 #awslocal lambda update-function-code --function-name shipment-list-lambda-validator \
 # --zip-file fileb://target/shipment-list-lambda-validator-1.0-SNAPSHOT.jar \
 # --region eu-central-1

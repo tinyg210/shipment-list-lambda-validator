@@ -29,6 +29,7 @@ public class ServiceHandler implements RequestHandler<S3Event, Void> {
     // check if record is there
     if (event.getRecords().isEmpty()) {
       logger.log("No records received.");
+      return null;
     }
 
     for (S3EventNotificationRecord record : event.getRecords()) {
@@ -44,7 +45,7 @@ public class ServiceHandler implements RequestHandler<S3Event, Void> {
 
         isValid = false;
         logger.log(
-            "File format not accepted.");
+            "File format not accepted. This will be replaced with a standard placeholder.");
       }
       if (isValid) {
         byte[] magicNumbers = new byte[4];
@@ -77,7 +78,7 @@ public class ServiceHandler implements RequestHandler<S3Event, Void> {
       } else {
         logger.log(
             "Found image with content type: " + s3Object.getObjectMetadata().getUserMetadata()
-                .get("content-type") + " that is correct");
+                .get("content-type") + " that is correct.");
       }
 
     }

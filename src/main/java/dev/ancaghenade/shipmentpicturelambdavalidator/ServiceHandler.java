@@ -1,4 +1,4 @@
-package dev.ancaghenade.shipmentlistlambdavalidator;
+package dev.ancaghenade.shipmentpicturelambdavalidator;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
@@ -21,7 +21,12 @@ public class ServiceHandler implements RequestHandler<S3Event, Void> {
 
   public Void handleRequest(S3Event event, Context context) {
 
-    AmazonS3 s3Client = S3ClientHelper.getS3Client();
+    AmazonS3 s3Client = null;
+    try {
+      s3Client = S3ClientHelper.getS3Client();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
 
     LambdaLogger logger = context.getLogger();
     boolean isValid = true;
